@@ -1,0 +1,6 @@
+my_list = (1, 2, 3, 4, 5, 6, 7) 
+print("Original list: ", my_list)
+result = map(lambda x: x + x + x, my_list) 
+print("\nTriple of said list numbers:")
+res=list(result)
+print(res)
